@@ -20,6 +20,16 @@
   100% {transform: translateY(0);}
 }
 
+@media (max-width: 50rem) { 
+  html {
+    font-size: 1.3vh;
+  }
+}
+/* 
+html {
+  font-size: 2vw;
+} */
+
 .bold {
   font-weight: bolder;
   font-size: 1.15rem;

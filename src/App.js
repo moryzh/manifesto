@@ -1,12 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Section from './Section';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from 'react-router-dom';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from 'react-router-dom';
 
 function App() {
   const [check, setCheck] = useState(0);
@@ -36,6 +36,18 @@ function App() {
     }
   }
 
+  // const handlePage = (e) => {
+  //   if (page == 0) {
+  //     setPage(1);
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   if (page == 1) {
+      
+  //   }
+  // }, [page]);
+
   return (
     <div className="app">
       <div className="main-title">REAL TERMS AND CONDITIONS</div>
@@ -51,7 +63,7 @@ function App() {
           <label><input type="radio" id="check1" name="choice"  onChange={(e) => handleCheck(e)}></input>I agree.</label>
           <label><input type="radio" id="check2" name="choice"  onChange={(e) => handleCheck(e)}></input>No, I want to break free.</label>
         </div>
-        <a href={check == 1 ? "https://www.facebook.com/" : (check == 2 ? "solutions" : null)} onClick={console.log("hey")} className={check == 0 ? "end-continue" : "end-continue checked"}>CONTINUE</a>
+        <a href={check == 1 ? "https://www.facebook.com/" : (check == 2 ? "https://www.youtube.com/" : null)} className={check == 0 ? "end-continue" : "end-continue checked"}>CONTINUE</a>
       </div>
     </div>
   );
