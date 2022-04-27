@@ -86,6 +86,7 @@ function App() {
           <Paragraph level="letter" text="c. Further clarification on the use of user data. Beyond the abolishment of selling user data, any and all use of user information and personal data must be overtly outlined to the consumer. Recurring permission notifications will be required to ensure the user is not passive in their decision to relinquish their privacy rights."/>
           <Paragraph level="letter" text="d. The appropriate removal of user data. In line with Article 5.1 of the EU’s General Data Protection Regulation (GDPR), corporations may only utilize user data as per their respective publicly declared purposes and must delete such data from their records after the fulfillment of such purposes. Under no circumstances will corporations be permitted to delay the timely deletion of such information."/>
           <Paragraph level="normal" text="Social media is beautiful in its ability to connect individuals around the world of all walks of life. It can act as a tool for the furtherance of global social movements. It can act as an easily accessible source of educational content, when viewed with a critical lens. We wish to preserve these benevolent aspects of social media, while simultaneously doing away with the corporations’ abusive control over users’ current experience of their applications."/>
+
         </div>
     }
     </div>
