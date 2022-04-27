@@ -112,6 +112,11 @@ html {
   padding: 2rem 0rem;
 }
 
+.section-body.adj {
+  margin: 0rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+}
+
 .section-body-quote {
   font-size: 1rem;
   padding-bottom: 2rem;
@@ -187,4 +192,18 @@ input[type="radio"]:checked::before{
   color: black;
   background-color: white;
   border-color: black;
+}
+
+.normal {
+  margin-top: 1rem;
+}
+
+.number {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.letter {
+  /* margin-top: 1rem; */
+  margin-left: 3rem;
 }
